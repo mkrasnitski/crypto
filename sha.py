@@ -34,7 +34,6 @@ class sha:
 		n <<= k
 		n += len(m)*8
 		return n
-		return pad
 
 	def parse(self, m, n):
 		s = []
