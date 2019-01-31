@@ -1,4 +1,3 @@
-import inspect
 class sha:
 	def __init__(self):
 		self.mask = 2**self.word_length - 1
